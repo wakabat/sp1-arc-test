@@ -36,3 +36,5 @@ rustc 1.85.0-dev
 $ cargo +succinct --version
 cargo 1.87.0-nightly (6cf826701 2025-03-14)
 ```
+
+Note the problem goes away when we upgrade rkyv, see [this branch](https://github.com/wakabat/sp1-arc-test/tree/fix) for more details.
